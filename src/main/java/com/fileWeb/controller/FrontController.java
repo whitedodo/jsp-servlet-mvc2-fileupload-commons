@@ -11,6 +11,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import com.fileWeb.util.HttpUtil;
+
 /**
  * Servlet implementation class HomeController
  */
@@ -78,17 +80,13 @@ public class FrontController extends HttpServlet {
 			System.out.println("download");
 			System.out.println("----------------");
 			
-	    	HttpUtil.fileUpload(req, res, null);
+			HttpUtil.fileDownload(req, res, null);
 			
-		}else if(command.equals("/board/update.do")){
-			System.out.println("update");
+		}else if(command.equals("/board/fileRemove.do")) {
+			System.out.println("remove");
 			System.out.println("----------------");
-		}else if(command.equals("/board/select.do")){
-			System.out.println("select");
-			System.out.println("----------------");
-		}else if(command.equals("/board/delete.do")){
-			System.out.println("delete");
-			System.out.println("----------------");
+			
+	    	HttpUtil.removeFile(req, res);
 		}
 		
 	}
