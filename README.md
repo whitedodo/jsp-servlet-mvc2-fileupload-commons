@@ -1,5 +1,5 @@
 # jsp-servlet-mvc2-fileupload-commons
-Jsp/Servlet MVC2 Fileupload, Commons(IO,FileUpload) 적용한 다중 업로드, 다운로드 구현
+Jsp/Servlet MVC2 Fileupload, Commons(IO,FileUpload) 적용한 다중 업로드, 다운로드, 삭제 기능 구현
 
 ### 기본 정보(Information)
 ##### 제작일자(Create date): 2020-09-24
