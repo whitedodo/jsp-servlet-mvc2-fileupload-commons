@@ -22,7 +22,7 @@ Jsp/Servlet MVC2 Fileupload, Commons(IO,FileUpload) 적용한 다중 업로드, 
 ##### (Controller, View, web.xml, pom.xml, etc. were implemented using commons-io and commons-fileupload.)
 
 ### 2. 시연(Demonstration)
-##### 1. Spring-MVC FileUpload (Commons-IO, Commons-FileUpload), https://www.youtube.com/watch?v=KgfU9mVsGSo, Accessed by 2020-09-24, Last Modified 2020-09-24.
+##### 1. JSP/Servlet - 업로드, 다운로드, 삭제(Commons-IO, Commons-FileUpload), https://youtu.be/zo4TBbWkg28, Accessed by 2020-10-01, Last Modified 2020-10-01.
 
 ### 3. 참고자료(Reference)
 ##### 1. Maven Repository: Search/Browse/Explore, https://mvnrepository.com/, Accessed by 2020-09-24, Last Modified .
